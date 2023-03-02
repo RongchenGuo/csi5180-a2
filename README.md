@@ -9,9 +9,13 @@ python -m paraphrase --mode train --alg bert
 ```
 
 This command would run a certain classifier on a certain dataset. The evaluation scores will be outputed in the end.
+
 --mode should be from [train, dev, test]
+
 --alg should be from [em, wer, bert]
 
 em = exact match classifier
+
 wer = word edit distance classifier
+
 bert = BERT-based text similarity classifier
